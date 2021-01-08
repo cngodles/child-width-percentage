@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Calculate Child Width Percentage</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+	<link href="css/cwp.css" rel="stylesheet">
+</head>
+<body>
+	<section>
+		<h1>Calculate Child Width Percentage</h1>
+		<form id="calc-cwp" onSubmit="return false;">
+			<p><label for="parent-width">How wide is the parent container?</label> <input type="number" id="parent-width" value="1080"></p>
+			<p><label for="child-width">How wide is the child container?</label> <input type="number" id="child-width" value="540"></p>
+			<p><button id="calc">Calculate</button>
+		</form>
+		<div id="answer">
+
+		</div>
+		<p>
+			Copy <a href="#" class="action--copy-val">Value</a>, <a href="#" class="action--copy-css">CSS Line</a>
+		</p>
+	</section>
+
+	<section>
+		<h2>History</h2>
+		<div id="history-list">
+
+		</div>
+		<p>
+			<a href="#" class="action--clear-history">Clear History</a>
+		</p>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/cwp.js"></script>
+</body>
+</html>

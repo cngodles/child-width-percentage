@@ -1,0 +1,43 @@
+h1, h2 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0 0 30px 0; }
+
+#answer {
+  font-size: 56px;
+  font-weight: 700; }
+
+section {
+  text-align: center;
+  margin: 60px auto;
+  width: 800px;
+  padding: 60px;
+  border-radius: 18px;
+  background-color: #fff; }
+  section input {
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 24px;
+    width: 90px; }
+  section button {
+    font-size: 18px;
+    border-radius: 18px;
+    background-color: tomato;
+    border: none;
+    padding: 10px 20px;
+    color: #fff; }
+  section code {
+    padding: 5px;
+    display: inline-block;
+    background-color: #ccc;
+    border-radius: 4px; }
+  section a {
+    color: inherit; }
+
+body {
+  margin: 0;
+  background-color: tomato;
+  font-family: 'Roboto Slab', serif; }
+
+* {
+  box-sizing: border-box; }
